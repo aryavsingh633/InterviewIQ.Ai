@@ -10,7 +10,7 @@ import interviewRouter from './routes/interview.route.js';
 
 const app = express();
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://interviewiq-ai-client-ptxe.onrender.com",
     credentials: true
 }))
 
